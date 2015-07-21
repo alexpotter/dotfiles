@@ -35,4 +35,4 @@ alias gr="git l -30"
 alias gra="git l --all"
 function gblame() { git blame $1 | subl -n -w; }
 
-alias groot="`echo git root` && cd `git root`"
+#alias groot="`echo git root` && cd `git root`"
