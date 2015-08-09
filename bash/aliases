@@ -2,7 +2,6 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias bk="cd -"
-alias mampvhosts="subl /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf"
 
 # Improved listing
 alias ls="ls -F"
