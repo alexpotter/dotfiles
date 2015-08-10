@@ -2,7 +2,6 @@
 alias ..="cd .."
 alias ...="cd ../.."
 alias bk="cd -"
-alias mampvhosts="subl /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf"
 
 # Improved listing
 alias ls="ls -F"
@@ -73,13 +72,13 @@ alias a2r="sudo /usr/sbin/httpd -k restart"
 alias httpd="sudo /usr/sbin/httpd"
 
 # MySQL
-function mysql() {
-	if [ $# -eq 0 ]; then
-		/usr/local/Cellar/mysql/5.6.10/bin/mysql -u root
-	else
-		/usr/local/Cellar/mysql/5.6.10/bin/mysql.server $@
-	fi
-}
+#function mysql() {
+#	if [ $# -eq 0 ]; then
+#		/usr/local/Cellar/mysql/5.6.10/bin/mysql -u root
+#	else
+#		/usr/local/Cellar/mysql/5.6.10/bin/mysql.server $@
+#	fi
+#}
 
 alias ibdb="/usr/local/Cellar/mysql/5.6.10/bin/mysql -u root inventorybase"
 
