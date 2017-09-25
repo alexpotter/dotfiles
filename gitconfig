@@ -2,7 +2,7 @@
 	name = Alex Potter
 	email = alex.potter1993@gmail.com
 [core]
-	excludesfile = /Users/alexpotter/.bin/gitignore_global
+	excludesfile = /Users/alexpotter/.bin/.gitignore_global
 	quotepath = false
 	autocrlf = input
 [mergetool]
