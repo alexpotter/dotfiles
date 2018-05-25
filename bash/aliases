@@ -178,3 +178,6 @@ alias resetphpstormtrial="rm -rf ~/Library/Preferences/WebIde70"
 alias vu="vagrant up"
 alias vd="vagrant halt"
 alias vs="vagrant ssh"
+
+# Utils
+alias uuid="uuidgen | tr -d '\n' | tr '[:upper:]' '[:lower:]' | pbcopy && pbpaste && echo"
