@@ -1,5 +1,5 @@
 # Better node
-alias nus="npm use & npm start"
+alias nus="nvm use & npm start"
 
 # Easier navigation
 alias ..="cd .."
