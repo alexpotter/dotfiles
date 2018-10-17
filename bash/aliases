@@ -1,3 +1,6 @@
+# Better node
+alias nus="npm use & npm start"
+
 # Easier navigation
 alias ..="cd .."
 alias ...="cd ../.."
