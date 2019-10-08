@@ -63,8 +63,10 @@ export GIT_PS1_SHOWUPSTREAM="auto"
 # Current Dir Name _SPACE_  Git Branch & Status
 #PS1='\[\033[01;33m\]\W\[\033[01;34m\] \[\033[0;34m\]$(__git_ps1 "[%s]")\[\033[00m\]→ '
 
-git_branch() {
+function git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ on \[\1\]/'
 }
 
-PS1="%~$(git_branch) → "
+setopt prompt_subst
+
+PS1='%~$(git_branch) → '
