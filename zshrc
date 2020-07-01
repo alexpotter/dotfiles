@@ -19,4 +19,4 @@ export PATH="$HOME/.fastlane/bin:$PATH"
 
 ### OpenSSL
 export PATH="/usr/local/opt/openssl/bin:$PATH"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
