@@ -13,7 +13,7 @@ alias la="ls -AF"
 alias a="la"
 alias lo="ls -AF1"
 alias ll="ls -AFhl"
-alias pi="ssh pi@192.168.0.12"
+alias pi="ssh pi@192.168.0.20"
 
 # Build InventoryBase from develop branch and deploy that shit
 alias dbd="./devbuild && ./deploy"
