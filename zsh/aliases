@@ -1,3 +1,6 @@
+# Laravel sail
+alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
 # Better node
 alias nus="nvm use && npm start"
 
